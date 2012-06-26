@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'secure_files'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tx_securefiles_domain_model_public">Public folder</label>
+			<label index="tx_securefiles_domain_model_public.folder">Folder</label>
+			<label index="tx_securefiles_scheduler_cleanup.title">Clean up a directory</label>
+			<label index="tx_securefiles_scheduler_cleanup.desc">Cleans up any files inside a folder that are too old.</label>
+			<label index="tx_securefiles_scheduler_cleanup.root_folder">Root folder</label>
+			<label index="tx_securefiles_scheduler_cleanup.max_lifetime">Maximum lifetime of a file (in seconds)</label>
+			<label index="provider.debug">Run in debug mode (verbous)</label>
+			<label index="provider.dryRun">Run in dryRun mode (doesn't delete)</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="tx_securefiles_domain_model_public">Öffentliche Ordner</label>
+			<label index="tx_securefiles_domain_model_public.folder">Ordner</label>
+			<label index="tx_securefiles_scheduler_cleanup.title">Ordner aufräumen</label>
+			<label index="tx_securefiles_scheduler_cleanup.desc">Räumt alle Dateien in einem Ordner auf, welche zu alt sind.</label>
+			<label index="tx_securefiles_scheduler_cleanup.root_folder">Wurzelordner</label>
+			<label index="tx_securefiles_scheduler_cleanup.max_lifetime">Maximale Lebenszeit einer Datei (in Sekunden)</label>
+			<label index="provider.debug">Debug mode (ausführliche Rückmeldungen)</label>
+			<label index="provider.dryRun">Trockenübungsmodus (löscht nicht)</label>
+		</languageKey>
+	</data>
+</T3locallang>

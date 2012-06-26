@@ -1,0 +1,32 @@
+  # cat=basic//10; type=input; label= Set the directory that secure_files will write it's permission files to. Can be relative to TYPO3-root or absolute.
+workingDirectory = typo3temp/tx_securefiles/
+
+  # cat=basic//10; type=input; label= The FE cookie domain. Leave empty to make secure_files resolve it automatically.
+feCookieDomain =
+
+  # cat=basic//10; type=int+; label= The FE cookie lifetime.
+feCookieLifetime = 86400
+
+  # cat=basic//10; type=input; label= The FE cookie path.
+feCookiePath = /
+
+  # cat=basic//10; type=boolean; label= If the FE cookie should only be sent with HTTPS
+feCookieSecure = 0
+
+  # cat=basic//10; type=boolean; label= If the FE cookie should only be sent with HTTP
+feCookieHTTPOnly = 0
+
+  # cat=basic//10; type=input; label= The BE cookie domain. Leave empty to make secure_files resolve it automatically.
+beCookieDomain =
+
+  # cat=basic//10; type=int+; label= The BE cookie lifetime.
+beCookieLifetime = 86400
+
+  # cat=basic//10; type=input; label= The BE cookie path.
+beCookiePath = /
+
+  # cat=basic//10; type=boolean; label= If the BE cookie should only be sent with HTTPS
+beCookieSecure = 0
+
+  # cat=basic//10; type=boolean; label= If the BE cookie should only be sent with HTTP
+beCookieHTTPOnly = 0

@@ -1,0 +1,37 @@
+2012-03-08 Nils Blattner <nb@cabag.ch>
+	* version 0.0.8
+	* changed the parsing of internal absolute links (http://this.domain.com/some/file.pdf) to use preg_match instead of parse_url (special characters do not work in parse_url)
+
+2012-03-07 Nils Blattner <nb@cabag.ch>
+	* version 0.0.7
+	* fixed a bug with special characters in the urls
+
+2012-03-05 Nils Blattner <nb@cabag.ch>
+	* version 0.0.6
+	* fixed a bug in the base url regex
+	* added <link-tags to the base regex
+
+2012-02-06 Nils Blattner <nb@cabag.ch>
+	* version 0.0.5
+	* fixed some bugs with the scheduler task
+
+2012-02-06 Nils Blattner <nb@cabag.ch>
+	* version 0.0.4
+	* changed tx_SecureFiles_Utility_Parser to force create a .htaccess in the permission folder
+
+2012-01-24 Nils Blattner <nb@cabag.ch>
+	* version 0.0.3
+	* changed tx_SecureFiles_Utility_Parser to only consider files
+
+2011-12-21 Nils Blattner <nb@cabag.ch>
+	* version 0.0.2
+	* removed unnecessary function from the tx_SecureFiles_Utility_Parser class
+	* added Tx_SecureFiles_Utility_Configuration class, that supplies the extension configuration with default values
+
+2011-12-01 Nils Blattner <nb@cabag.ch>
+	* version 0.0.1
+	* initial release
+	* added Readme.txt
+	* added Tx_SecureFiles_Domain_Model_Public table/model/repository
+	* added Scheduler task to recursively delete the auto generated files
+	* added Scheduler task to create public entries based on tx_securefiles_domain_model_public entries
